@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>ControlePendencias</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>
